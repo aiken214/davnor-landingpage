@@ -1,0 +1,26 @@
+:root {
+    --green-color: #347928;
+    --lightgreen-color: #C0EBA6;
+    --cream-color: #FFFBE6;
+    --yellow-color: #FCCD2A;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
