@@ -19,7 +19,7 @@ const Systems = () => {
           </div>
 
           <div className="info-content">
-            <a href="bit.ly/davnor-mooe" target="_blank" rel="noopener noreferrer"><img src={mooe_logo} width="150" height="100" alt="MOOE Logo" /></a>
+            <a href="https://bit.ly/davnor-mooe" target="_blank" rel="noopener noreferrer"><img src={mooe_logo} width="150" height="100" alt="MOOE Logo" /></a>
             <div className="title">MOOE Utilization<br></br>Status</div>
           </div>
 
