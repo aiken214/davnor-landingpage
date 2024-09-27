@@ -3,8 +3,30 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div>Navbar</div>
-  )
+    <nav>
+      <a href="#" className="logo">
+        DepEd <span className="green">DavNor</span>
+      </a>
+
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+
+        <li>
+          <a href="#">Systems</a>
+        </li>
+
+        <li>
+          <a href="#">Team</a>
+        </li>
+
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  );
 };
 
 export default Navbar;

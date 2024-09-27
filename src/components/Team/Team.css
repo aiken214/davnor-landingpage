@@ -1,0 +1,29 @@
+.profile-image {
+    width: 150px;
+    height: 150px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.content-container {
+    display: inline-block;
+}
+
+.team-container {
+    display: flex;
+    margin: 50px auto;
+}
+
+.team {
+    display: inline-block;
+    grid-template-columns: 1fr;
+}
+
+.team-member-container {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+}
