@@ -1,6 +1,6 @@
+/* Base styles for large screens */
 header {
     min-height: 100vh;
-    background: url("../../assets/background.jpg");
     background-size: cover;
     background-position: center; 
 }
@@ -18,17 +18,59 @@ header .wrapper {
 header .welcome-container {
     position: absolute; 
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 0px;
+    padding-top: 15%;
+    padding-bottom: 0;
     margin: 0 auto;
 }
 
 header .welcome-container .welcome-name {
     text-align: center;
     margin-bottom: 10px;
+    font-size: 2.5rem; /* Adjust font size */
 }
 
 header .welcome-container .tagline-name {
     text-align: center;
     margin-top: 0px;
+    font-size: 1.5rem;
+}
+
+/* Responsive styles */
+
+/* Tablet screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    header .welcome-container {
+        padding-top: 10%; /* Adjust padding */
+    }
+
+    header .welcome-container .welcome-name {
+        font-size: 2rem; /* Smaller font for tablets */
+    }
+
+    header .welcome-container .tagline-name {
+        font-size: 1.2rem; /* Adjust tagline font size */
+    }
+}
+
+/* Mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+    header {
+        min-height: 50vh; /* Reduce height for mobile */
+    }
+
+    header .wrapper {
+        height: 30vh; /* Adjust wrapper height */
+    }
+
+    header .welcome-container {
+        padding-top: 5%; /* Further reduce padding on mobile */
+    }
+
+    header .welcome-container .welcome-name {
+        font-size: 1.5rem; /* Even smaller font for mobile */
+    }
+
+    header .welcome-container .tagline-name {
+        font-size: 1rem; /* Smaller tagline font */
+    }
 }

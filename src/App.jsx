@@ -1,10 +1,11 @@
 import React from 'react';
-import { Header, Systems, Team } from './components';
+import { Header, Carousel, Systems, Team } from './components';
 
 const App = () => {
   return (
     <>
       <Header />
+      <Carousel />
       <Systems />
       <Team />
     </>
