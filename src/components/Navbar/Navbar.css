@@ -29,7 +29,7 @@ a.logo {
 /* Responsive styles */
 
 /* Tablets (max-width: 1024px) */
-@media (max-width: 1220px) {
+@media (max-width: 1230px) {
     nav {
         position: fixed;
         width: 1024px; /* Make nav width responsive */

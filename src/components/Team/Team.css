@@ -68,7 +68,7 @@
     align-items: center; 
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1230px) {
 
     #teams .content-container {
         display: inline-block;

@@ -62,7 +62,7 @@
 }
 
 /* Responsive styles */
-@media (max-width: 1220px) {
+@media (max-width: 1230px) {
     #system .content-container {
         grid-template-columns: repeat(4, 1fr); /* 2 columns on tablets */
     }

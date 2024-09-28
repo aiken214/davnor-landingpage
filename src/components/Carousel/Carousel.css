@@ -110,13 +110,13 @@
     background-color: steelblue;
   }
 
-  @media (max-width: 1220px) {
+  @media (max-width: 1230px) {
     .carousel {        
         display: flex;
         height: 600px;
         width: 100%;
         max-width: 1024px;
-        margin-top: 150px;
+        margin-top: 40px;
         margin-left: auto;
         margin-right: auto;
     }
