@@ -32,7 +32,7 @@ a.logo {
 @media (max-width: 1230px) {
     nav {
         position: fixed;
-        width: 1024px; /* Make nav width responsive */
+        width: 100%; /* Make nav width responsive */
         top: 20px;
         padding: 10px 20px;
     }
