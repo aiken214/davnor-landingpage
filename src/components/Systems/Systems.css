@@ -1,50 +1,97 @@
-#info .content-container {
+#system .content-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 columns on large screens */
-    gap: 40px;
+    gap: 120px;
+    margin-bottom: 120px; 
 }
 
-.title-header {
+#system .services-header {
     text-align: center;
-    margin-bottom: 50px; /* Adds space between title and content */
-    font-size: 2.5rem; /* Adjust font size for desktop */
-    color: #333; /* Ensure text color contrasts with the background */
+    margin-top: 125px;
+    margin-bottom: 40px; 
+    color: #333; 
+    position: relative;
+}
+
+#system .services-header::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    background: var(--green-color);
+    left: 0;
+    bottom: -7px;
+}
+
+#system .title-header {
+    text-align: center;
+    margin-bottom: 40px; 
+    color: #333; 
+    position: relative;
+}
+
+#system .title-header::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    background: var(--green-color);
+    left: 0;
+    bottom: -7px;
 }
 
 /* Content container for each info block */
-#info .info-content {
+#system .info-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     gap: 4px;
+    margin-bottom: 10px;
     transition: all 400ms ease;
 }
 
-#info .info-content:hover {
+#system .info-content:hover {
     transform: scale(1.04);
 }
 
-#info .title {
+#system .title {
     font-weight: 600;
     font-size: 16px;
     text-align: center;
 }
 
 /* Responsive styles */
-@media (max-width: 1024px) {
-    #info .content-container {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+@media (max-width: 1220px) {
+    #system .content-container {
+        grid-template-columns: repeat(4, 1fr); /* 2 columns on tablets */
+    }
+
+    #system .title-header {
+        text-align: center;
+        margin-bottom: 50px; 
+        color: #333; 
+        position: relative;
+    }
+    
+    #system .title-header::after {
+        content: "";
+        position: absolute;
+        width: 60px;
+        height: 5px;
+        background: var(--green-color);
+        left: 0;
+        bottom: -7px;
     }
 }
 
 @media (max-width: 768px) {
-    #info .content-container {
+    #system .content-container {
         grid-template-columns: 1fr; /* 1 column on mobile devices */
         gap: 20px; /* Reduce the gap for smaller screens */
     }
 
-    #info .title {
+    #system .title {
         font-size: 14px; /* Smaller font size for mobile */
     }
 }
