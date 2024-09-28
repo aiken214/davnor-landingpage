@@ -3,7 +3,7 @@
     height: 600px;
     width: 100%;
     max-width: 1024px;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
 
@@ -15,6 +15,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
+    margin-bottom: 70px;
   }
   
   .carousel_card {
@@ -108,3 +109,36 @@
   .pagination_dot-active {
     background-color: steelblue;
   }
+
+  @media (max-width: 1220px) {
+    .carousel {        
+        display: flex;
+        height: 600px;
+        width: 100%;
+        max-width: 1024px;
+        margin-top: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card_title {
+        font-size: 18px; 
+    }
+
+    .carousel_arrow_left,
+    .carousel_arrow_right {
+        font-size: 32px; 
+        width: 40px; 
+        height: 40px; 
+    }
+
+    .card_overlay {
+        padding: 25px; 
+    }
+
+    .pagination_dot {
+        height: 8px; 
+        width: 8px;
+        margin-left: 8px; 
+    }
+}

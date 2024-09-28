@@ -37,13 +37,25 @@ header .welcome-container .tagline-name {
 /* Responsive styles */
 
 /* Tablet screens (max-width: 1024px) */
-@media (max-width: 1024px) {
+@media (max-width: 1220px) {
+    header {
+        margin-bottom: 100px; 
+    }
     header .welcome-container {
-        padding-top: 10%; /* Adjust padding */
+        position: absolute; 
+        text-align: center;
+        padding-top: 25%;
+        padding-bottom: 0;
+        margin: 0 auto;;
+    }
+
+    header .wrapper {
+        height: 12vh; /* Adjust wrapper height */
     }
 
     header .welcome-container .welcome-name {
         font-size: 2rem; /* Smaller font for tablets */
+        margin-bottom: 5px;
     }
 
     header .welcome-container .tagline-name {
@@ -58,7 +70,7 @@ header .welcome-container .tagline-name {
     }
 
     header .wrapper {
-        height: 30vh; /* Adjust wrapper height */
+        height: 10vh; /* Adjust wrapper height */
     }
 
     header .welcome-container {
@@ -73,3 +85,5 @@ header .welcome-container .tagline-name {
         font-size: 1rem; /* Smaller tagline font */
     }
 }
+
+

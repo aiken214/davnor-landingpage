@@ -6,7 +6,7 @@ const Team = () => {
   return (
     <section id="teams">
       <div className="wrapper">
-        <h2>OUR TEAM</h2>
+        <h2 className="team-header">OUR TEAM</h2>
         <div className="content-container">
           <div className="team-container">
             <div className="team">
@@ -21,7 +21,7 @@ const Team = () => {
               <img className="profile-image" src={asds} alt=""/>
               <div className="team-details">
                 <div className="name">Janette G. Veloso</div>
-                <div className="position">Schools Division Superintendent</div>
+                <div className="position">Assistant Schools Division Superintendent</div>
               </div>
             </div>
           </div>

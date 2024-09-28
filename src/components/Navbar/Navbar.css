@@ -2,7 +2,7 @@
 nav {
     position: fixed;
     width: 1024px; /* Set width for larger screens */
-    top: 24px;
+    top: 20px;
     background: #347928;
     backdrop-filter: blur(20px);
     display: flex;
@@ -29,10 +29,11 @@ a.logo {
 /* Responsive styles */
 
 /* Tablets (max-width: 1024px) */
-@media (max-width: 1024px) {
+@media (max-width: 1220px) {
     nav {
-        width: 90%; /* Make nav width responsive */
-        top: 0;
+        position: fixed;
+        width: 1024px; /* Make nav width responsive */
+        top: 20px;
         padding: 10px 20px;
     }
 

@@ -14,11 +14,11 @@ function Navbar() {
         </li>
 
         <li>
-          <a href="#">Systems</a>
+          <a href="#system">Systems</a>
         </li>
 
         <li>
-          <a href="#">Team</a>
+          <a href="#teams">Team</a>
         </li>
 
         <li>

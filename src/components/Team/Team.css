@@ -1,29 +1,121 @@
-.profile-image {
+#teams .content-container {
+    display: inline-block;
+    margin-bottom: 120px;  
+}
+
+#teams .profile-image {
     width: 150px;
     height: 150px;
+    border-radius: 50%;
 }
 
-.name {
-    font-weight: 600;
+#teams .team-header {
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 50px; 
+    color: #333; 
+    position: relative;
+}
+
+#teams .team-header::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background: var(--green-color);
+    left: 0;
+    bottom: -7px;
+}
+
+#teams .name {
+    font-weight: 800;
     font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
 }
 
-.content-container {
-    display: inline-block;
+#teams .position {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
 }
 
-.team-container {
+#teams .team-container {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+#teams .team {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 40px;
+}
+
+#teams .team-member-container {
     display: flex;
-    margin: 50px auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 150px;
 }
 
-.team {
-    display: inline-block;
-    grid-template-columns: 1fr;
+#teams .team-member {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
 }
 
-.team-member-container {
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 100px;
+@media (max-width: 1080px) {
+
+    #teams .content-container {
+        display: inline-block;
+        margin-bottom: 120px;
+    }
+
+    #teams .team-container {
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        gap: 20px; 
+    }
+
+    #teams .team-header {
+        text-align: center;
+        margin-bottom: 50px; 
+        color: #333; 
+        position: relative;
+    }
+    
+    #teams .team-header::after {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 5px;
+        background: var(--green-color);
+        left: 0;
+        bottom: -7px;
+    }
+    
+    #teams .team {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    #teams .team-member-container {
+        display: flex;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 90px;
+    }
+    
+    #teams .team-member {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    }
 }
