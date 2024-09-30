@@ -31,6 +31,7 @@ header .welcome-container .welcome-name {
 header .welcome-container .tagline-name {
     text-align: center;
     margin-top: 0px;
+    font-family: Alegreya, sans-serif;
     font-size: 1.5rem;
 }
 
@@ -39,7 +40,8 @@ header .welcome-container .tagline-name {
 /* Tablet screens (max-width: 1024px) */
 @media (max-width: 1230px) {
     header {
-        margin-bottom: 100px; 
+        margin-bottom: 7ch; 
+        width: 100%;
     }
     header .welcome-container {
         position: absolute; 
@@ -59,7 +61,7 @@ header .welcome-container .tagline-name {
     }
 
     header .welcome-container .tagline-name {
-        font-size: 1.2rem; /* Adjust tagline font size */
+        font-size: 1.5rem; /* Adjust tagline font size */
     }
 }
 
