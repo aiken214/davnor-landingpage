@@ -3,7 +3,7 @@ nav {
     position: fixed;
     width: 1024px; /* Set width for larger screens */
     top: 20px;
-    background: #347928;
+    background: #5f615f;
     backdrop-filter: blur(20px);
     display: flex;
     justify-content: space-between;
