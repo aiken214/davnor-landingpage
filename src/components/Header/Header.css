@@ -39,7 +39,8 @@ header .welcome-container .tagline-name {
 /* Tablet screens (max-width: 1024px) */
 @media (max-width: 1230px) {
     header {
-        margin-bottom: 100px; 
+        margin-bottom: 100px;
+        width: 100%; 
     }
     header .welcome-container {
         position: absolute; 
