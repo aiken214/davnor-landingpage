@@ -36,6 +36,7 @@
 
 #teams .position {
     font-weight: 600;
+    font-family: Alegreya, sans-serif;
     font-size: 14px;
     text-align: center;
 }
@@ -110,7 +111,7 @@
         margin-top: 30px;
         display: grid;
         grid-template-columns: repeat(3, 1fr); 
-        gap: 90px;
+        gap: 150px;
     }
     
     #teams .team-member {

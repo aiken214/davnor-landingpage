@@ -49,7 +49,7 @@ a {
         flex-direction: column;
         align-items: center; 
         justify-content: center;
-        max-width: 1024px;
+        max-width: 100%;
         margin: 0 auto;
         flex-wrap: wrap; 
     }
